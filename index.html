@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="results">
+        <h3 class="result-header">Your Result</h3>
+        <div class="circle">
+          <h1 class="result-score-1">76</h1>
+          <span class="result-score-2">of 100</span>
+        </div>
+        <h2 class="praise-header">Great</h2>
+        <p class="score-description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="score-container">
+        <div class="scores">
+          <h3 class="score-header">Summary</h3>
+          <div class="grid-container">
+            <div class="senses sense-1">
+              <div class="img-con">
+                <img src="assets/images/icon-reaction.svg" alt="" />
+              </div>
+              <div class="description-box">
+                <h3 class="sense-description">Reaction</h3>
+              </div>
+              <div class="score-number">
+                <span> 80<span class="inner-score-text"> / 100</span></span>
+              </div>
+            </div>
+            <div class="senses sense-2">
+              <div class="img-con">
+                <img src="assets/images/icon-memory.svg" alt="" />
+              </div>
+              <div class="description-box">
+                <h3>Memory</h3>
+              </div>
+              <div class="score-number">
+                <span> 92<span class="inner-score-text"> / 100</span></span>
+              </div>
+            </div>
+            <div class="senses sense-3">
+              <div class="img-con">
+                <img src="assets/images/icon-verbal.svg" alt="" />
+              </div>
+              <div class="description-box">
+                <h3>Verbal</h3>
+              </div>
+              <div class="score-number">
+                <span> 61<span class="inner-score-text"> / 100</span></span>
+              </div>
+            </div>
+            <div class="senses sense-4">
+              <div class="img-con">
+                <img src="assets/images/icon-visual.svg" alt="" />
+              </div>
+              <div class="description-box">
+                <h3>Visual</h3>
+              </div>
+              <div class="score-number">
+                <span> 72<span class="inner-score-text"> / 100</span></span>
+              </div>
+            </div>
+          </div>
+          <button class="continue-btn">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
