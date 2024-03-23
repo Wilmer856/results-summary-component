@@ -60,4 +60,4 @@ This project was a step forward in my journey as a developer, offering practical
 ## Author
 
 - Website - [https://www.codebywil.com](https://www.codebywil.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Wilmer856](https://www.frontendmentor.io/profile/Wilmer856)
